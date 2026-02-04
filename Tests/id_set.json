@@ -1,0 +1,82 @@
+{
+    "scripts": [
+        {
+            "vs_demo": {
+                "name": "vs_demo",
+                "display_name": "vs_demo",
+                "file_path": "Packs/demo/Scripts/vsdemo/vsdemo.yml",
+                "source": [
+                    "github.com",
+                    "lbazantorres",
+                    "lastest_template-lbt"
+                ],
+                "fromversion": "1.0.0`",
+                "pack": "demo",
+                "marketplaces": [
+                    "xsoar",
+                    "marketplacev2"
+                ],
+                "type": "python3",
+                "script_executions": [
+                    "URLDecode"
+                ],
+                "docker_image": "demisto/python3:3.12.12.6391686"
+            }
+        }
+    ],
+    "playbooks": [],
+    "integrations": [],
+    "TestPlaybooks": [],
+    "Classifiers": [],
+    "IncidentFields": [],
+    "IncidentTypes": [],
+    "IndicatorFields": [],
+    "IndicatorTypes": [],
+    "Layouts": [],
+    "Lists": [],
+    "Jobs": [],
+    "Mappers": [],
+    "ParsingRules": [],
+    "ModelingRules": [],
+    "CorrelationRules": [],
+    "XSIAMDashboards": [],
+    "XSIAMReports": [],
+    "Triggers": [],
+    "Wizards": [],
+    "Packs": {
+        "demo": {
+            "name": "demo",
+            "current_version": "1.0.0",
+            "source": [
+                "github.com",
+                "lbazantorres",
+                "lastest_template-lbt"
+            ],
+            "author": "Cortex XSOAR",
+            "certification": "certified",
+            "tags": [],
+            "use_cases": [],
+            "categories": [
+                "Utilities"
+            ],
+            "marketplaces": [
+                "xsoar",
+                "marketplacev2"
+            ],
+            "ContentItems": {
+                "scripts": [
+                    "vs_demo"
+                ]
+            }
+        }
+    },
+    "XDRCTemplates": [],
+    "LayoutRules": [],
+    "GenericTypes": [],
+    "GenericFields": [],
+    "GenericModules": [],
+    "GenericDefinitions": [],
+    "Reports": [],
+    "Widgets": [],
+    "Dashboards": []
+}

@@ -1,0 +1,29 @@
+{
+    "name": "demo",
+    "description": "demo testing",
+    "support": "xsoar",
+    "currentVersion": "1.0.0",
+    "author": "Cortex XSOAR",
+    "url": "https://www.paloaltonetworks.com/cortex",
+    "email": "",
+    "categories": [
+        "Utilities"
+    ],
+    "tags": [],
+    "useCases": [],
+    "keywords": [],
+    "marketplaces": [
+        "xsoar",
+        "marketplacev2"
+    ],
+    "firstCreated": "2026-02-04T14:59:21Z",
+    "dependencies": {
+        "FiltersAndTransformers": {
+            "mandatory": true,
+            "display_name": "FiltersAndTransformers"
+        }
+    },
+    "displayedImages": [
+        "FiltersAndTransformers"
+    ]
+}
